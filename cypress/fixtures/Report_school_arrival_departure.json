@@ -1,0 +1,98 @@
+{
+  "case1": {
+    "searchType": "SCHOOL_ARRIVAL_DEPARTURE",
+    "page": {
+      "size": 20,
+      "number": 1,
+      "total": null,
+      "count": null
+    },
+    "query": {
+      "filters": [
+        {
+          "filters": [
+            {
+              "field": "reportDate",
+              "value": "2024-01-12",
+              "op": "GREATER_THAN_OR_EQUAL",
+              "values": []
+            },
+            {
+              "field": "reportDate",
+              "value": "2024-01-12",
+              "op": "LESS_THAN_OR_EQUAL",
+              "values": []
+            }
+          ],
+          "join": "AND"
+        },
+        {
+          "filters": [
+            {
+              "field": "logTime",
+              "value": "00:00:00",
+              "op": "GREATER_THAN_OR_EQUAL",
+              "values": []
+            },
+            {
+              "field": "logTime",
+              "value": "23:00:00",
+              "op": "LESS_THAN_OR_EQUAL",
+              "values": []
+            }
+          ],
+          "join": "AND"
+        },
+        {
+          "field": "schoolCode",
+          "value": "029",
+          "op": "EQUAL_TO",
+          "values": []
+        },
+        {
+          "field": "schoolName",
+          "value": "SEATACK",
+          "op": "CONTAINS",
+          "values": []
+        },
+        {
+          "field": "busNumber",
+          "value": "Bus4",
+          "op": "EQUAL_TO",
+          "values": []
+        }
+      ],
+      "join": "AND"
+    }
+  },
+  "case2": {
+    "searchType": "SCHOOL_ARRIVAL_DEPARTURE",
+    "page": {
+      "size": 20,
+      "number": 1,
+      "total": null,
+      "count": null
+    },
+    "query": {
+      "filters": [
+        {
+          "filters": [
+            {
+              "field": "reportDate",
+              "value": "2024-09-01",
+              "op": "GREATER_THAN_OR_EQUAL",
+              "values": []
+            },
+            {
+              "field": "reportDate",
+              "value": "2024-10-30",
+              "op": "LESS_THAN_OR_EQUAL",
+              "values": []
+            }
+          ],
+          "join": "AND"
+        }
+      ]
+    }
+  }
+}

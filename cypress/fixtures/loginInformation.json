@@ -1,0 +1,13 @@
+{
+"loginAthena":{
+  "email" : "vbadmin@karrostech.com",
+  "password" : "W8whf2RXJNxEahj",
+  "scope" : "Insight"
+},
+"LoginAthena_error":
+{
+  "email" : "nhan.huynh@karrostech.com",
+  "password" : "0987654321x@XXX",
+  "scope" : "Insight"
+}
+}

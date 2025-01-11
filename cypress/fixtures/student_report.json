@@ -1,0 +1,34 @@
+{
+    "case1": {
+        "Student_Edulog ID": 54361,
+        "Student_Address": "7960 Merchants WAY, 32222",
+        "Student_District ID": 20244951,
+        "Student_Email": null
+    },
+    "case1_eks": {
+        "Student_Edulog ID": 60612,
+        "Student_Date Of Birth": "10/24/13",
+        "Student_District ID": 2310010,
+        "Student_Email": null,
+        "Student_Address":"506 ISLAND CT, INDIAN HARBOUR BEACH, FL 32937"
+    },
+    "LoginAthena_error": {
+        "email": "nhan.huynh@karrostech.com",
+        "password": "0987654321x@XXX",
+        "scope": "Insight"
+    },
+    "SearchForStudent_edulogID":{
+        "query": {
+            "join": "OR",
+            "filters": [
+
+            ]
+        },
+        "page": {
+            "pageNumber": 1,
+            "resultsPerPage": 20
+        },
+        "sort": [{"fieldName": "edulogId", "direction": "ASCENDING", "order": 0}],
+        "tenantId": "e90923cf-b601-4092-a9bc-bd8e9043af1b"
+    }
+}
